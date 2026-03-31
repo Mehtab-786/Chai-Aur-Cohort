@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #fff;
+}
+
+/* Container */
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 12px;
+  width: 350px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Input box */
+.inputBox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inputBox input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #1e293b;
+  color: #fff;
+}
+
+.inputBox input::placeholder {
+  color: #aaa;
+}
+
+.inputBox button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  background: #4d79ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.inputBox button:hover {
+  background: #365bd6;
+}
+
+/* List */
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* List items */
+li {
+  padding: 12px 15px;
+  border-radius: 8px;
+  background: #1e293b;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+/* Hover effect */
+li:hover {
+  background: #334155;
+  transform: translateY(-2px);
+}
+
+/* Text */
+li span {
+  flex: 1;
+  cursor: pointer;
+}
+
+/* Buttons */
+.deleteButton {
+  background-color: #ff4d4d;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.deleteButton:hover {
+  background-color: #e63939;
+}
+
+.saveButton {
+  background-color: #4d79ff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: 0.2s;
+}
+
+.saveButton:hover {
+  background-color: #365bd6;
+}
+
+/* Edit input inside li */
+li input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-right: 8px;
+  background: #0f172a;
+  color: white;
+}
+
+p{
+  font-size: 10px;
+  color: #aaa;
+  text-align: center;
+}

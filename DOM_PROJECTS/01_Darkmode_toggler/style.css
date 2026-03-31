@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --bg: #f0ece4;
+  --surface: #e8e2d9;
+  --text: #1a1714;
+  --text-muted: #7a7168;
+  --accent: #c8440a;
+  --btn-bg: #1a1714;
+  --btn-text: #f0ece4;
+  --btn-hover: #2e2925;
+  --border: rgba(26,23,20,0.12);
+  --glow: rgba(200, 68, 10, 0.15);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  min-height: 100vh;
+  gap: 0;
+
+  /* Subtle grain texture */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+}
+
+/* Card wrapper around h1 + button */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse 60% 50% at 50% 50%, var(--glow), transparent 70%);
+  transition: opacity 0.6s ease;
+  z-index: 0;
+}
+
+h1 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--text);
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s ease;
+}
+
+/* Accent dot after the title */
+h1::after {
+  content: '.';
+  color: var(--accent);
+}
+
+/* Subtle label below title */
+body::after {
+  content: 'click to switch themes';
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-top: -4px;
+  margin-bottom: 36px;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s ease;
+}
+
+button {
+  position: relative;
+  z-index: 1;
+  padding: 14px 36px;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1.5px solid var(--btn-bg);
+  border-radius: 2px;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease,
+    border-color 0.4s ease,
+    transform 0.15s ease,
+    box-shadow 0.3s ease;
+  outline: none;
+}
+
+button:hover {
+  background-color: var(--btn-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.18);
+}
+
+button:active {
+  transform: translateY(0px);
+  box-shadow: none;
+}
+
+/* ── Dark mode ─────────────────────────────── */
+.dark {
+  --bg: #111009;
+  --surface: #1c1a17;
+  --text: #f0ece4;
+  --text-muted: #6b6558;
+  --accent: #e8622a;
+  --btn-bg: #f0ece4;
+  --btn-text: #111009;
+  --btn-hover: #ddd7cd;
+  --border: rgba(240,236,228,0.10);
+  --glow: rgba(232, 98, 42, 0.12);
+
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.dark h1 {
+  color: var(--text);
+}
+
+.dark button {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border-color: var(--btn-bg);
+}
+
+.dark button:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.container {
+  text-align: center;
+}
