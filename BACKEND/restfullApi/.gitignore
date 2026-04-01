@@ -1,0 +1,13 @@
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+node_modules
+
+# dotenv environment variable files
+.env
+
+
+.DS_Store
