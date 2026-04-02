@@ -12,6 +12,13 @@ class APIError extends Error {
     static unAuthorized(message = 'UnAuthorized') {
         return new APIError(401, message)
     }
+    static forbidden(message = 'forbidden') {
+        return new APIError(412, message)
+    }
+    static notFound(message = 'Not account with this email') {
+        return new APIError(412, message)
+    }
+
 
 }
 
