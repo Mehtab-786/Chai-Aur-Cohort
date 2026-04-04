@@ -1,0 +1,21 @@
+{
+  "name": "restfullapiauth",
+  "version": "1.0.0",
+  "description": "Making full Authentication with Restfull api's",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehtab Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "joi": "^18.1.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3"
+  }
+}

@@ -1,8 +1,6 @@
-import APIError from '../../common/utils/Api-Error';
-import APIResponse from '../../common/utils/Api-Response'
+import APIError from '../../common/utils/Api-Error.js';
 import User from './auth.model.js'
 import { generateAccessToken, generateRefreshToken, genereatResetToken, verifyRefreshToken } from '../../common/utils/jwt-utils.js'
-import jwt from 'jsonwebtoken';
 import { sendVerificationEmail } from '../../common/config/email.js';
 
 
