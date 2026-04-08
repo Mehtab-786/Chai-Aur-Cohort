@@ -1,7 +1,7 @@
 {
-  "name": "restfullapiauth",
+  "name": "authenticationrestfullapis",
   "version": "1.0.0",
-  "description": "Making full Authentication with Restfull api's",
+  "description": "Making the authentication system with jwt and email verification",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,12 +10,11 @@
   "author": "Mehtab Hussain",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
-    "dotenv": "^17.4.0",
+    "dotenv": "^17.4.1",
     "express": "^5.2.1",
     "joi": "^18.1.2",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.3.3"
+    "mongoose": "^9.4.1"
   }
 }
