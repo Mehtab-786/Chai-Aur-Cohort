@@ -38,4 +38,6 @@ const userSchema = new Schema({
     resetPasswordExpires: { type: Date, select: false },
 }, { timestamps: true });
 
+// userSchema.methods.
+
 export default model('User', userSchema);

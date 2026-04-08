@@ -15,6 +15,9 @@ class APIError extends Error {
     static conflict(message = 'Conflict!') {
         return new APIError(409, message)
     }
+    static forbidden(message = 'forbidden!') {
+        return new APIError(412, message)
+    }
 }
 
 export default APIError;

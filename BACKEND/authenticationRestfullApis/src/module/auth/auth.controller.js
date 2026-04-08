@@ -6,4 +6,10 @@ const register = async (req, res) => {
     APIResponse.created(res, 'Registration successfull', data)
 };
 
-export { register };
+const login = async (req, res) => {
+    const { user, accessToken, refreshToken } = await service.login(req.body);
+    res.cookie('accessToken', accessToken, { maxAge: 900000, httpOnly: true })
+
+};
+
+export { register, login };
