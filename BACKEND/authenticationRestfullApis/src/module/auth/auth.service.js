@@ -1,4 +1,5 @@
 import APIError from '../../common/utils/APIError.js';
+import { sendVerificationToken } from '../../common/utils/email.utils.js';
 import { generateAccessToken, generateRefreshToken, generateResetToken, verifyRefreshToken } from '../../common/utils/jwt.utils.js';
 import User from './auth.model.js';
 import crypto from 'crypto';
@@ -15,12 +16,18 @@ const register = async ({ username, email, password, role }) => {
     const user = await User.create({
         username,
         email,
-        password, // need to be hashed 
+        password,
         role,
         verificationToken: hashedToken // for email verification hashed
     })
 
     // send email to user rawtoken for verification 
+    try {
+        await sendVerificationToken(email, rawToken)
+    } catch (error) {
+        throw new APIError(500, 'Error sending token !!')
+    }
+
 
     const userObj = user.toObject()
     delete userObj.password
@@ -33,7 +40,9 @@ const login = async ({ email, password }) => {
     const user = await User.findOne({ email }).select("+password");
     if (!user) throw APIError.unAuthorized('Email or password is incorrect!');
 
-    // verify passwrod
+    let isPassword = await user.comparePasword(password);
+
+    if (!isPassword) throw APIError.unAuthorized("Invalid email or password !!");
 
     if (!user.isVerified) throw APIError.forbidden('Please verify your email!');
 
@@ -86,20 +95,40 @@ const forgotPassword = async (email) => {
     await user.save({ validateBeforeSave: false })
 
     // email to user -> rawtoken
-
-    // store hashed token in db
-
-
 }
+
 const newPassword = async (email) => {
     // take token from user in url maybe
     // verify the token from db
     // take input new password and store in db
 
+
+}
+
+const verifyEmail = async (token) => {
+    const hash = hashedToken(token);
+    let user = await User.findOne({ verificationToken: hash }).select("+verificationToken");
+
+    // write code if user not found
+
+    user.isVerified = true;
+    user.verificationToken = undefined;
+    await user.save();
+    
+    return user;
+}
+
+
+const profile = async (userId) => {
+    const user = await User.findById(userId)
+    if (!user) {
+        throw APIError.notFound('User does not exists !!!');
+    }
+    return user;
 }
 
 const logout = async (userId) => {
     return await User.findByIdAndUpdate(userId, { refreshToken: undefined }); // why undefind, ai kept null
 };
 
-export { register, login };
+export { register, login, logout, forgotPassword, newPassword, refresh, profile, verifyEmail };

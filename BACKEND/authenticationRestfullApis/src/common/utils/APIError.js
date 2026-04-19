@@ -18,6 +18,9 @@ class APIError extends Error {
     static forbidden(message = 'forbidden!') {
         return new APIError(412, message)
     }
+    static notFound(message = 'not-found!') {
+        return new APIError(404, message)
+    }
 }
 
 export default APIError;
