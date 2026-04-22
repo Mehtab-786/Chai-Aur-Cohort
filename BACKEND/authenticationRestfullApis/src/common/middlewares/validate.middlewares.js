@@ -1,4 +1,4 @@
-import APIError from "../utils/APIError";
+import APIError from "../utils/APIError.js";
 
 function validate(DTOclass) {
     return (req, res, next) => {

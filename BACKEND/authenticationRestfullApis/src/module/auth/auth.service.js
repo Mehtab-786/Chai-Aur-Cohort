@@ -110,6 +110,7 @@ const verifyEmail = async (token) => {
     let user = await User.findOne({ verificationToken: hash }).select("+verificationToken");
 
     // write code if user not found
+    if(!user) throw APIError.unAuthorized("Token not verified ...")
 
     user.isVerified = true;
     user.verificationToken = undefined;
@@ -117,7 +118,6 @@ const verifyEmail = async (token) => {
     
     return user;
 }
-
 
 const profile = async (userId) => {
     const user = await User.findById(userId)

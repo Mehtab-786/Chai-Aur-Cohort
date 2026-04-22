@@ -12,9 +12,9 @@
         "joi": "^18.1.2",
         "jsonwebtoken": "^9.0.3",
         "mongoose": "^9.4.1",
-        "nodemailer": "^8.0.5",
-      },
-    },
+        "nodemailer": "^8.0.5"
+      }
+    }
   },
   "packages": {
     "@hapi/address": ["@hapi/address@5.1.1", "", { "dependencies": { "@hapi/hoek": "^11.0.2" } }, "sha512-A+po2d/dVoY7cYajycYI43ZbYMXukuopIsqCjh5QzsBCipDtdofHntljDlpccMjIfTy6UOkg+5KPriwYch2bXA=="],

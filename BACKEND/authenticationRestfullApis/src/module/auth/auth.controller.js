@@ -25,9 +25,9 @@ const profile = async (req, res) => {
     APIResponse.ok(res, 'User profile',user)
 };
 
-const verifyEmail = async (req,res) => {
-    // let token req.params?.token  
-    // check it 
+const verifyingEmail = async (req,res) => {
+    const user = await service.verifyEmail(req.params?.token);
+    APIResponse.ok(res,'User verified ' , user)    
 }
 
-export { register, login, logout, profile };
+export { register, login, logout, profile, verifyingEmail };

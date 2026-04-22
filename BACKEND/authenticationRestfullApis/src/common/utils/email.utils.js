@@ -1,10 +1,11 @@
 import nodemailer from "nodemailer";
+import APIError from "./APIError.js";
 
 // Create a transporter using SMTP
 const transporter = nodemailer.createTransport({
   host: process.env.HOST,
   port: 587,
-  secure: false, 
+  secure: false,
   auth: {
     user: process.env.SMTP_USER,
     pass: process.env.SMTP_PASS,
@@ -21,28 +22,37 @@ const transporter = nodemailer.createTransport({
 //   });
 
 //   console.log("Message sent: %s", info.messageId);
-//   // Preview URL is only available when using an Ethereal test account
-//   console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
 // } catch (err) {
 //   console.error("Error while sending mail:", err);
 // }
 
 
-const sendMail = async (to,subject,html) => {
-  await transporter.sendMail({
-    from : `${process.env.SMTP_FROM_EMAIL}`,
-    to,
-    subject,
-    html
-  })
+const sendMail = async (to, subject, html) => {
+  try {
+    const info = await transporter.sendMail({
+      from: `${process.env.SMTP_FROM_EMAIL}`,
+      to,
+      subject,
+      html
+    })
+    console.log("Message sent: %s", info.messageId);
+  } catch (error) {
+    console.error("Error while sending mail:", error);
+    throw new APIError(500, "Email sending failed");
+  }
 }
-const sendVerificationToken = async (email,token) => {
-  await transporter.sendMail({
-    from : `${process.env.SMTP_FROM_EMAIL}`,
-    email,
-    subject,
-    html
-  })
+const sendVerificationToken = async (email, token, subject, html) => {
+  try {
+    const url = `${process.env.CLIENT_URL}/verify-email/${token}`;
+
+    await sendMail(
+      email,
+      'Verify your email',
+        `<h2>Welcome!</h2><p>Click <a href="${url}">here</a> to verify your email.</p>`
+    )
+  } catch (error) {
+    throw new APIError(500, "Error while sending token")
+  }
 }
 
-export {sendMail,sendVerificationToken}
+export { sendMail, sendVerificationToken }

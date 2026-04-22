@@ -39,10 +39,10 @@ const userSchema = new Schema({
     resetPasswordExpires: { type: Date, select: false },
 }, { timestamps: true });
 
-userSchema.pre('save', async (next) => {
-    if (!this.isModified('password')) return next();
+userSchema.pre('save', async function() {
+    if (!this.isModified('password')) return;
     this.password = await bcrypt.hash(this.password, 10);
-    next();
+    // next();
 });
 
 userSchema.methods.comparePasword = async (userPassword) => {
