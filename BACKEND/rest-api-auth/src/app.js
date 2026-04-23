@@ -1,6 +1,7 @@
 import cookieParser from "cookie-parser";
 import express from "express";
 import authRoute from "./modules/auth/auth.routes.js";
+import ApiResponse from "./common/utils/api-response.js";
 
 const app = express();
 app.use(express.json());
