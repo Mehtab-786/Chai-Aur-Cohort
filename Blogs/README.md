@@ -39,10 +39,23 @@ From fundamentals to real-world concepts.
 ---
 
 
-
 ### **[How Git Works](https://mehtabblogs.hashnode.dev/how-git-works-internally)**  
 
 
 [![How-Git-Works](./assets/How-Git-Works.webp)](https://mehtabblogs.hashnode.dev/how-git-works-internally)
 ---
+
+### **[Understanding TCP](https://mehtabblogs.hashnode.dev/tcp-working-3-way-handshake-and-reliable-communication)**  
+
+
+[![Understanding TCP](./assets/understanding-tcp.png)](https://mehtabblogs.hashnode.dev/tcp-working-3-way-handshake-and-reliable-communication)
+---
+
+### **[Difference between TCP and UDP](https://mehtabblogs.hashnode.dev/use-of-tcp-and-udp)**  
+
+
+[![Difference between TCP and UDP](./assets/tcp-and-udp.png)](https://mehtabblogs.hashnode.dev/use-of-tcp-and-udp)
+---
+
+
 
