@@ -65,4 +65,9 @@ From fundamentals to real-world concepts.
 ---
 
 
+### **[How Browser works](https://mehtabblogs.hashnode.dev/how-a-browser-works)**  
+
+
+[![How Browser works](./assets/how-web-browser-wroks.png)](https://mehtabblogs.hashnode.dev/how-a-browser-works)
+---
 
