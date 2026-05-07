@@ -71,3 +71,24 @@ From fundamentals to real-world concepts.
 [![How Browser works](./assets/how-web-browser-wroks.png)](https://mehtabblogs.hashnode.dev/how-a-browser-works)
 ---
 
+### **[Understanding HTML Tags and Elements](https://mehtabblogs.hashnode.dev/understanding-html-tags-and-elements)**  
+
+
+[![Understanding HTML Tags and Elements](./assets/HTMLTag-elements.png)](https://mehtabblogs.hashnode.dev/understanding-html-tags-and-elements)
+---
+
+
+### **[CSS Selectors 101: Targeting Elements with Precision](https://mehtabblogs.hashnode.dev/css-selectors)**  
+
+
+[![CSS Selectors 101: Targeting Elements with Precision](./assets/CSS-selectors.png)](https://mehtabblogs.hashnode.dev/css-selectors)
+---
+
+
+### **[CSS Selectors 101: Targeting Elements with Precision](https://mehtabblogs.hashnode.dev/css-selectors)**  
+
+
+[![CSS Selectors 101: Targeting Elements with Precision](./assets/CSS-selectors.png)](https://mehtabblogs.hashnode.dev/css-selectors)
+---
+
+
