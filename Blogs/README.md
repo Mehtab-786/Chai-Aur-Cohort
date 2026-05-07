@@ -99,3 +99,10 @@ From fundamentals to real-world concepts.
 ---
 
 
+### **[Understanding Variables and Data Types in JavaScript](https://mehtabblogs.hashnode.dev/understanding-variables-and-data-types-in-javascript)**  
+
+
+[![Understanding Variables and Data Types in JavaScript](./assets/Understanding-Variables-and-Data-Types-in-JavaScript.png)](https://mehtabblogs.hashnode.dev/understanding-variables-and-data-types-in-javascript)
+---
+
+
