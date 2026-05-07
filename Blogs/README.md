@@ -85,10 +85,10 @@ From fundamentals to real-world concepts.
 ---
 
 
-### **[CSS Selectors 101: Targeting Elements with Precision](https://mehtabblogs.hashnode.dev/css-selectors)**  
+### **[Emmet for HTML: A Beginner’s Guide to Writing Faster Markup](https://mehtabblogs.hashnode.dev/emmet-for-html-a-beginners-guide)**  
 
 
-[![CSS Selectors 101: Targeting Elements with Precision](./assets/CSS-selectors.png)](https://mehtabblogs.hashnode.dev/css-selectors)
+[![Emmet for HTML: A Beginner’s Guide to Writing Faster Markup](./assets/Emmet-HTML.png)](https://mehtabblogs.hashnode.dev/emmet-for-html-a-beginners-guide)
 ---
 
 
