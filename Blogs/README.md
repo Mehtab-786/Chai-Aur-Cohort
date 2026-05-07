@@ -92,3 +92,10 @@ From fundamentals to real-world concepts.
 ---
 
 
+### **[Understanding Promise Methods in JavaScript](https://mehtabblogs.hashnode.dev/from-pending-to-fulfilled-understanding-promise-methods-in-javascript)**  
+
+
+[![Understanding Promise Methods in JavaScript](./assets/Promises-in-javascript.webp)](https://mehtabblogs.hashnode.dev/from-pending-to-fulfilled-understanding-promise-methods-in-javascript)
+---
+
+
