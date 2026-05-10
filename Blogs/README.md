@@ -121,3 +121,11 @@ From fundamentals to real-world concepts.
 ---
 
 
+
+### **[Introduction to Array in JavaScript](https://mehtabblogs.hashnode.dev/introduction-to-arrays)**  
+
+
+[![Introduction to Array in JavaScript](./assets/AllAboutArray.png)](https://mehtabblogs.hashnode.dev/introduction-to-arrays)
+---
+
+
