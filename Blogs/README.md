@@ -122,10 +122,10 @@ From fundamentals to real-world concepts.
 
 
 
-### **[Introduction to Array in JavaScript](https://mehtabblogs.hashnode.dev/introduction-to-arrays)**  
+### **[Array methods](https://mehtabblogs.hashnode.dev/array-methods)**  
 
 
-[![Introduction to Array in JavaScript](./assets/AllAboutArray.png)](https://mehtabblogs.hashnode.dev/introduction-to-arrays)
+[![Array methods](./assets/AllAboutArray.png)](https://mehtabblogs.hashnode.dev/array-methods)
 ---
 
 
