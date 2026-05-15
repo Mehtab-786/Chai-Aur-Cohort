@@ -122,10 +122,18 @@ From fundamentals to real-world concepts.
 
 
 
+### **[Introduction to Array](https://mehtabblogs.hashnode.dev/introduction-to-arrays)**  
+
+
+[![Introduction to Array](./assets/AllAboutArray.png)](https://mehtabblogs.hashnode.dev/introduction-to-arrays)
+---
+
+
+
 ### **[Array methods](https://mehtabblogs.hashnode.dev/array-methods)**  
 
 
-[![Array methods](./assets/AllAboutArray.png)](https://mehtabblogs.hashnode.dev/array-methods)
+[![Array methods](./assets/Array%20methods.png)](https://mehtabblogs.hashnode.dev/array-methods)
 ---
 
 
