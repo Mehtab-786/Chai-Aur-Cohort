@@ -137,10 +137,16 @@ From fundamentals to real-world concepts.
 ---
 
 
-
 ### **[Understanding Object](https://mehtabblogs.hashnode.dev/understanding-objects-in-javascript)**  
 
 
 [![Understanding Object](./assets/introduction-objects.png)](https://mehtabblogs.hashnode.dev/understanding-objects-in-javascript)
+---
+
+
+### **[Understanding Object Oriented Programming](https://mehtabblogs.hashnode.dev/understanding-oops-in-javascript)**  
+
+
+[![Understanding Object Oriented Programming](./assets/OOP-cover.png)](https://mehtabblogs.hashnode.dev/understanding-oops-in-javascript)
 ---
 
