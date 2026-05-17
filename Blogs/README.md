@@ -150,3 +150,10 @@ From fundamentals to real-world concepts.
 [![Understanding Object Oriented Programming](./assets/OOP-cover.png)](https://mehtabblogs.hashnode.dev/understanding-oops-in-javascript)
 ---
 
+
+### **[Understanding this, Call, Apply and Bind](https://mehtabblogs.hashnode.dev/the-magic-of-this-call-apply-and-bind-in-javascript)**  
+
+
+[![Understanding this, Call, Apply and Bind](./assets/call-apply-bind.png)](https://mehtabblogs.hashnode.dev/the-magic-of-this-call-apply-and-bind-in-javascript)
+---
+
