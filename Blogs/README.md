@@ -171,3 +171,10 @@ From fundamentals to real-world concepts.
 [![Arrow Functions in JavaScript](./assets/arrow%20fucntion.png)](https://mehtabblogs.hashnode.dev/arrow-functions-in-javascript)
 ---
 
+
+### **[JavaScript Modules](https://mehtabblogs.hashnode.dev/javascript-modules)**  
+
+
+[![JavaScript Modules](./assets/javascript%20modules.png)](https://mehtabblogs.hashnode.dev/javascript-modules)
+---
+
