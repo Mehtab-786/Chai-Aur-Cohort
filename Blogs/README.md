@@ -164,3 +164,10 @@ From fundamentals to real-world concepts.
 [![Functions in JavaScript](./assets/Declaration-expression-javascript-function.png)](https://mehtabblogs.hashnode.dev/function-declaration-vs-function-expression)
 ---
 
+
+### **[Arrow Functions in JavaScript](https://mehtabblogs.hashnode.dev/arrow-functions-in-javascript)**  
+
+
+[![Arrow Functions in JavaScript](./assets/arrow%20fucntion.png)](https://mehtabblogs.hashnode.dev/arrow-functions-in-javascript)
+---
+
