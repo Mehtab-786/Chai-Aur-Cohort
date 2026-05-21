@@ -157,3 +157,10 @@ From fundamentals to real-world concepts.
 [![Understanding this, Call, Apply and Bind](./assets/call-apply-bind.png)](https://mehtabblogs.hashnode.dev/the-magic-of-this-call-apply-and-bind-in-javascript)
 ---
 
+
+### **[Functions in JavaScript](https://mehtabblogs.hashnode.dev/function-declaration-vs-function-expression)**  
+
+
+[![Functions in JavaScript](./assets/Declaration-expression-javascript-function.png)](https://mehtabblogs.hashnode.dev/function-declaration-vs-function-expression)
+---
+
