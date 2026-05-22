@@ -200,4 +200,9 @@ From fundamentals to real-world concepts.
 ---
 
 
+### **[New Keyword Javascript](https://mehtabblogs.hashnode.dev/new-keyword-in-javascript)**  
+
+
+[![New Keyword Javascript](./assets/new%20keyword.jpg)](https://mehtabblogs.hashnode.dev/new-keyword-in-javascript)
+---
 
