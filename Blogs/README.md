@@ -192,3 +192,12 @@ From fundamentals to real-world concepts.
 [![Template Literals in Javascript](./assets/template%20literals.png)](https://mehtabblogs.hashnode.dev/template-literals-in-javascript)
 ---
 
+
+### **[Callbacks in Javascript](https://mehtabblogs.hashnode.dev/callbacks-in-javascripts)**  
+
+
+[![Callbacks in Javascript](./assets/Callbacks%20javascript.png)](https://mehtabblogs.hashnode.dev/callbacks-in-javascripts)
+---
+
+
+
