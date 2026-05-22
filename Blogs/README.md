@@ -178,3 +178,10 @@ From fundamentals to real-world concepts.
 [![JavaScript Modules](./assets/javascript%20modules.png)](https://mehtabblogs.hashnode.dev/javascript-modules)
 ---
 
+
+### **[Array Flatten in Javascript](https://mehtabblogs.hashnode.dev/array-flatten-in-javascript)**  
+
+
+[![Array Flatten in Javascript](./assets/array%20flatten.png)](https://mehtabblogs.hashnode.dev/array-flatten-in-javascript)
+---
+
