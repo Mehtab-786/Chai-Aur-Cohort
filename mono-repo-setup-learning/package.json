@@ -1,0 +1,13 @@
+{
+  "name": "mono-repo-setup-learning",
+  "private":"true",
+  "scripts": {},
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.3.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module"
+}
