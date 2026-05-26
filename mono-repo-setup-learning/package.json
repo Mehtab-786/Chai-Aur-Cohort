@@ -1,13 +1,13 @@
 {
   "name": "mono-repo-setup-learning",
-  "private":"true",
-  "scripts": {},
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.3.0",
-      "onFail": "download"
-    }
+  "private": "true",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build"
   },
-  "type": "module"
+  "packageManager": "pnpm@11.3.0",
+  "type": "module",
+  "devDependencies": {
+    "turbo": "^2.9.14"
+  }
 }

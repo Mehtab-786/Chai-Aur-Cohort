@@ -1,7 +1,10 @@
 {
-  "name": "utils",
+  "name": "@mono-repo-setup-learning/utils",
   "main": "index.js",
   "private":"true",
+  "exports": {
+    ".": "./src/index.ts"
+  },
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc"
