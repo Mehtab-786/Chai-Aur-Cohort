@@ -213,3 +213,10 @@ From fundamentals to real-world concepts.
 [![String Polyfills in Javascript](./assets/string-polyfills.jpg)](https://mehtabblogs.hashnode.dev/string-polyfills-in-javascript)
 ---
 
+
+### **[Spread vs Rest Operators in Javascript](https://mehtabblogs.hashnode.dev/spread-vs-rest-operators-in-javascript)**  
+
+
+[![Spread vs Rest Operators in Javascript](./assets/spread-rest.png)](https://mehtabblogs.hashnode.dev/spread-vs-rest-operators-in-javascript)
+---
+
