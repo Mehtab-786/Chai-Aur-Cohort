@@ -227,3 +227,10 @@ From fundamentals to real-world concepts.
 [![this Keyword in Javascript](./assets/this-keyword.png)](https://mehtabblogs.hashnode.dev/understanding-this-keyword-in-javascript)
 ---
 
+
+### **[Map vs Set in Javascript](https://mehtabblogs.hashnode.dev/javascript-map-vs-set-when-to-use)**  
+
+
+[![Map vs Set in Javascript](./assets/map-set.png)](https://mehtabblogs.hashnode.dev/javascript-map-vs-set-when-to-use)
+---
+
