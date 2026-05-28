@@ -234,3 +234,10 @@ From fundamentals to real-world concepts.
 [![Map vs Set in Javascript](./assets/map-set.png)](https://mehtabblogs.hashnode.dev/javascript-map-vs-set-when-to-use)
 ---
 
+
+### **[Javascript Destructuring](https://mehtabblogs.hashnode.dev/understanding-destructuring-in-javascript-for-beginners)**  
+
+
+[![Javascript Destructuring](./assets/js-destructuring.png)](https://mehtabblogs.hashnode.dev/understanding-destructuring-in-javascript-for-beginners)
+---
+
