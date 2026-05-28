@@ -248,3 +248,10 @@ From fundamentals to real-world concepts.
 [![Async/Await in Javascript](./assets/async-await.png)](https://mehtabblogs.hashnode.dev/async-await-in-javascript)
 ---
 
+
+### **[Asynchronous vs Synchronous in Javascript](https://mehtabblogs.hashnode.dev/synchronous-vs-asynchronous-javascript-explained-for-beginners)**  
+
+
+[![Asynchronous vs Synchronous in Javascript](./assets/Asynchronous%20vs%20Synchronous%20in%20Javascript.png)](https://mehtabblogs.hashnode.dev/synchronous-vs-asynchronous-javascript-explained-for-beginners)
+---
+
