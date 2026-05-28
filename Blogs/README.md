@@ -255,3 +255,11 @@ From fundamentals to real-world concepts.
 [![Asynchronous vs Synchronous in Javascript](./assets/Asynchronous%20vs%20Synchronous%20in%20Javascript.png)](https://mehtabblogs.hashnode.dev/synchronous-vs-asynchronous-javascript-explained-for-beginners)
 ---
 
+
+
+### **[Error Handling in Javascript](https://mehtabblogs.hashnode.dev/error-handling-in-javascript-try-catch-finally)**  
+
+
+[![Error Handling in Javascript](./assets/Error%20Handling%20in%20Javascript.png)](https://mehtabblogs.hashnode.dev/error-handling-in-javascript-try-catch-finally)
+---
+
