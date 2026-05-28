@@ -241,3 +241,10 @@ From fundamentals to real-world concepts.
 [![Javascript Destructuring](./assets/js-destructuring.png)](https://mehtabblogs.hashnode.dev/understanding-destructuring-in-javascript-for-beginners)
 ---
 
+
+### **[Async/Await in Javascript](https://mehtabblogs.hashnode.dev/async-await-in-javascript)**  
+
+
+[![Async/Await in Javascript](./assets/async-await.png)](https://mehtabblogs.hashnode.dev/async-await-in-javascript)
+---
+
