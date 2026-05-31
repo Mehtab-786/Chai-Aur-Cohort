@@ -278,3 +278,10 @@ From fundamentals to real-world concepts.
 ---
 
 
+### **[Async code in Nodejs](https://mehtabblogs.hashnode.dev/async-code-in-node-js-callbacks-and-promises)**  
+
+
+[![Async code in Nodejs](./assets/Async%20code%20in%20Nodejs.png)](https://mehtabblogs.hashnode.dev/async-code-in-node-js-callbacks-and-promises)
+---
+
+
