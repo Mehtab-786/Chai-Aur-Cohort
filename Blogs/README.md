@@ -270,3 +270,11 @@ From fundamentals to real-world concepts.
 [![Promises in Javascript](./assets/promises.png)](https://mehtabblogs.hashnode.dev/javascript-promises-explained-for-beginners)
 ---
 
+
+### **[Blocking & Non blocking code in Node](https://mehtabblogs.hashnode.dev/blocking-non-blocking-code-in-node-js)**  
+
+
+[![Blocking & Non blocking code in Node](./assets/Blocking%20&%20Non%20blocking%20code%20in%20Node.png)](https://mehtabblogs.hashnode.dev/blocking-non-blocking-code-in-node-js)
+---
+
+
