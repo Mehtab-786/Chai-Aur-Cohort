@@ -263,3 +263,10 @@ From fundamentals to real-world concepts.
 [![Error Handling in Javascript](./assets/Error%20Handling%20in%20Javascript.png)](https://mehtabblogs.hashnode.dev/error-handling-in-javascript-try-catch-finally)
 ---
 
+
+### **[Promises in Javascript](https://mehtabblogs.hashnode.dev/javascript-promises-explained-for-beginners)**  
+
+
+[![Promises in Javascript](./assets/promises.png)](https://mehtabblogs.hashnode.dev/javascript-promises-explained-for-beginners)
+---
+
